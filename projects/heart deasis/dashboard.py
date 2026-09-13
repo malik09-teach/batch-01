@@ -104,10 +104,7 @@ def get_patient_input():
 
     # Added missing keys ('id', 'dataset') and fixed spelling of 'thalch'
     patient = {
-        "id": 0, "dataset": 0, "age": age, "sex": sex, "cp": cp, 
-        "trestbps": trestbps, "chol": chol, "fbs": fbs, "restecg": restecg, 
-        "thalch": thalch, "exang": exang, "oldpeak": oldpeak, "slope": slope, 
-        "ca": ca, "thal": thal
+        "id": 0, "dataset": 0, "age": age, "sex": sex, "cp": cp, "trestbps": trestbps, "chol": chol, "fbs": fbs, "restecg": restecg, "thalch": thalch, "exang": exang, "oldpeak": oldpeak, "slope": slope,"ca": ca, "thal": thal
     }
     return patient
 
