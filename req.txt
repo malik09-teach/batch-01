@@ -7,3 +7,4 @@ streamlit
 matplotlib
 shap
 seaborn
+xgboost>=2.0
